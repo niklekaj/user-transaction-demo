@@ -1,10 +1,37 @@
 <template>
   <div id="app">
-    <div>
-      <router-link to="/">Home</router-link>
-    </div>
-    <router-view />
+    <div class="title">Welcome to Circuly Internal Tool</div>
+    <Home />
   </div>
 </template>
 
-<style lang="scss"></style>
+<script>
+import Home from './views/Home.vue';
+
+export default {
+  components: {
+    Home
+  }
+}
+</script>
+
+<style lang="scss">
+    #app {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    background-image: linear-gradient(119deg, #92e361, #12e4ac);
+    color: white;
+    font-size: 5rem;
+  }
+    
+  .title {
+    margin-top: 1rem;
+    text-decoration: none;
+    background: white;
+    color: #12e4ac;
+    padding: 0 1rem;
+    border-radius: 2rem;
+  }
+</style>
