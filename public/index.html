@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <title>Circuly Internal Tool</title>
+    <style>
+      html {
+        /* global font-size reference for 'rem' as a font-size unit */
+        height: 100%;
+        font-size: 10px;
+      }
+
+      body {
+        /* body reseter */
+        margin: 0;
+        height: inherit;
+        max-width: 100%;
+      }
+    </style>
   </head>
   <body>
     <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong>We're sorry but Circuly Internal Tool doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
