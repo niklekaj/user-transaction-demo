@@ -1,6 +1,6 @@
 <template>
   <div class="c-home">
-    <div style="border: 2px solid red;" class="c-home__sections">
+    <div class="c-home__sections">
     <div :class="{
             'c-home__sections-section': true,
             'c-home__sections-section--active': currentSection === section
@@ -12,7 +12,7 @@
       {{ section }}
     </div>
   </div>
-  <component style="border: 2px solid black;" v-bind:is="currentSection"></component>
+  <component v-bind:is="currentSection"></component>
   </div>
 </template>
 
@@ -52,7 +52,7 @@ export default {
       // align-items: center;
       flex-direction: row;
       color: white;
-      font-size: 5rem;
+      font-size: 4rem;
 
       &-section {
         background: white;
