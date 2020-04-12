@@ -48,10 +48,15 @@ export default {
             border: 1px solid black;
             text-align: left;
             padding-left: 1rem;
+            height: 3rem;
         }
 
         th {
             border: 2px solid black;
+        }
+
+        td:nth-child(1) {
+            width: 25%;
         }
     }
 </style>

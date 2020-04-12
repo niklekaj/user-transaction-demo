@@ -35,9 +35,9 @@ export default {
 };
 </script>
     
-<style lang="scss">
+<style scoped lang="scss">
     table {
-        font-size: 3rem;
+        font-size: 2.5rem;
         color: black;
         background: white;
         margin: 2rem 1rem 0;
