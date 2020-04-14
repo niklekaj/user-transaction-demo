@@ -1,0 +1,31 @@
+.c-home {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+
+    &__sections {
+    display: flex;
+    margin-top: 5rem;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: row;
+    color: white;
+    font-size: 4rem;
+
+    &-section {
+      background: white;
+      color: #12e4ac;
+      border-radius: 2rem;
+      padding: 0 2rem;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &--active {
+        text-decoration: underline;
+      }
+    }
+  }
+}
