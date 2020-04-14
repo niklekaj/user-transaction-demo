@@ -29,9 +29,12 @@ import UserData from './../../test.json';
 export default {
     data() {
         return {
-            objUserData: UserData
+            objUserData: {}
         };
-    }
+    },
+    created() {
+        this.objUserData = UserData;
+    },
 };
 </script>
     
