@@ -58,7 +58,7 @@ export default {
         background: white;
         color: #12e4ac;
         border-radius: 2rem;
-        padding: 0 1rem;
+        padding: 0 2rem;
 
         &:hover {
           cursor: pointer;
