@@ -20,10 +20,9 @@ export default {
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 100%;
+    min-height: 100%;
     background-image: linear-gradient(119deg, #92e361, #12e4ac);
     color: white;
-    font-size: 5rem;
   }
     
   .title {
@@ -33,5 +32,6 @@ export default {
     color: #12e4ac;
     padding: 0 1rem;
     border-radius: 2rem;
+    font-size: 5rem;
   }
 </style>
