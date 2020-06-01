@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="title">Welcome to Circuly Internal Tool</div>
+    <div class="title">Welcome to Circular Internal Tool</div>
     <Home />
   </div>
 </template>
